@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Watermelon | Fresh Valley Fruits</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+<nav class="navbar">
+
+    <div class="logo">
+        🍃 Fresh Valley
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="index.html#fruits">
+            Fruits
+        </a>
+
+        <a href="index.html#location">
+            Location
+        </a>
+
+        <a href="#" class="cart-link">
+            🛒 Cart
+            <span id="cartCount">0</span>
+        </a>
+
+    </div>
+
+</nav>
+
+
+
+<section class="detail-page">
+
+    <div class="detail-container">
+
+
+        <div class="detail-image watermelon">
+
+            🍉
+
+        </div>
+
+
+
+        <div class="detail-info">
+
+            <h1>
+                Watermelon
+            </h1>
+
+            <p class="detail-price">
+                ₹60 / kg
+            </p>
+
+
+            <p class="detail-description">
+
+                Fresh and juicy watermelon with
+                naturally high water content.
+                Perfect for hot summer days,
+                family gatherings and refreshing drinks.
+
+            </p>
+
+
+            <div class="info-box">
+
+                <div class="info-item">
+
+                    <strong>📍 Location</strong>
+
+                    Sarvaram, Nalgonda
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <strong>🌱 Quality</strong>
+
+                    Farm Fresh
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <strong>☀️ Best For</strong>
+
+                    Summer
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <strong>📦 Unit</strong>
+
+                    Per Kg
+
+                </div>
+
+            </div>
+
+
+            <h3>
+                Select Quantity
+            </h3>
+
+
+            <div class="quantity-box">
+
+                <button onclick="decreaseQuantity()">
+                    −
+                </button>
+
+                <span id="quantity">
+                    1
+                </span>
+
+                <button onclick="increaseQuantity()">
+                    +
+                </button>
+
+            </div>
+
+
+            <button
+                class="add-cart-button"
+                onclick="addCurrentFruitToCart('Watermelon')">
+
+                🛒 Add to Cart
+
+            </button>
+
+
+            <a
+                href="index.html"
+                class="back-button">
+
+                ← Back to Fruits
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
